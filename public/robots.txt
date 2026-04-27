@@ -1,0 +1,11 @@
+# ELEVATE Fitness — https://elevate.fitness
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://elevate.fitness/sitemap.xml
+
+# Disallow admin/API paths
+Disallow: /api/
+Disallow: /_build/
+Disallow: /.tanstack/
