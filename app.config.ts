@@ -1,5 +1,6 @@
-import { defineConfig } from '@tanstack/react-start/config'
-export default defineConfig({
+import { createApp } from 'vinxi'
+
+export default createApp({
   server: {
     preset: 'vercel'
   }
