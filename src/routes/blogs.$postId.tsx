@@ -15,7 +15,7 @@ export const Route = createFileRoute("/blogs/$postId")({
   },
   head: ({ loaderData }) => ({
     meta: [
-      { title: `${loaderData?.post.title} — ELEVATE Blog` },
+      { title: `${loaderData?.post.title} — GRADIEN Blog` },
       { name: "description", content: loaderData?.post.excerpt || "" },
       { property: "og:title", content: loaderData?.post.title || "" },
       { property: "og:description", content: loaderData?.post.excerpt || "" },
@@ -35,7 +35,7 @@ function BlogPostPage() {
   return (
     <>
       <Navbar />
-      <main className="pt-24 min-h-screen bg-oatmeal">
+      <main className="pt-[65px] min-h-screen bg-oatmeal">
         {/* Hero Section */}
         <section className="relative h-[60vh] min-h-[400px] w-full overflow-hidden">
           <img
@@ -113,7 +113,7 @@ function BlogPostPage() {
                     </div>
                     <div>
                         <p className="text-sm font-bold text-foreground">{post.author}</p>
-                        <p className="text-xs text-muted-foreground">ELEVATE Panel</p>
+                        <p className="text-xs text-muted-foreground">GRADIEN Panel</p>
                     </div>
                   </div>
                 </div>
@@ -124,7 +124,7 @@ function BlogPostPage() {
                     <Calendar size={14} /> {post.date}
                   </div>
                   <div className="flex items-center gap-2 text-xs text-muted-foreground font-medium uppercase tracking-wider">
-                     <User size={14} /> Shared by ELEVATE
+                     <User size={14} /> Shared by GRADIEN
                   </div>
                 </div>
 

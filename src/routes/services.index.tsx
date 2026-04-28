@@ -22,13 +22,13 @@ import {
 export const Route = createFileRoute("/services/")({
   head: () => ({
     meta: [
-      { title: "Our Services — ELEVATE Fitness" },
+      { title: "Performance Protocols & Coaching Tiers | Gradien" },
       {
         name: "description",
         content:
-          "Explore ELEVATE's three-pillar methodology: Executive Physical Conditioning, Strategic Nutrition, and the Inner Circle Network. Built for high-performing women.",
+          "Explore our 1-on-1 remote fitness coaching, custom diet plans, and holistic consultancy packages designed to stop corporate burnout.",
       },
-      { property: "og:title", content: "Our Services — ELEVATE Fitness" },
+      { property: "og:title", content: "Our Services — GRADIEN Fitness" },
       {
         property: "og:description",
         content:
@@ -104,7 +104,7 @@ function ServicesPage() {
   return (
     <>
       <Navbar />
-      <main className="bg-background pt-20">
+      <main className="bg-background pt-[65px]">
         {/* ═══════════ HERO ═══════════ */}
         <section className="relative overflow-hidden bg-foreground py-24 lg:py-32">
           <div

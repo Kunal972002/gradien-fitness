@@ -16,9 +16,9 @@ const categoryColors: Record<string, string> = {
 export const Route = createFileRoute("/blogs/")({
   head: () => ({
     meta: [
-      { title: "Blog — ELEVATE Fitness Insights" },
+      { title: "Blog — GRADIEN Fitness Insights" },
       { name: "description", content: "Expert articles on nutrition, workouts, mindset, and recovery for busy professional women." },
-      { property: "og:title", content: "Blog — ELEVATE Fitness" },
+      { property: "og:title", content: "Blog — GRADIEN Fitness" },
       { property: "og:description", content: "Fitness insights for women who lead." },
     ],
   }),
@@ -29,7 +29,7 @@ function BlogsPage() {
   return (
     <>
       <Navbar />
-      <main className="pt-20">
+      <main className="pt-[65px]">
         <section className="bg-warmgray py-16">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -38,7 +38,7 @@ function BlogsPage() {
             className="mx-auto max-w-3xl px-6 text-center lg:px-8"
           >
             <span className="font-heading text-xs font-bold uppercase tracking-[0.2em] text-citrus">
-              The ELEVATE Journal
+              The GRADIEN Journal
             </span>
             <h1 className="mt-4 font-heading text-4xl font-black uppercase text-foreground sm:text-5xl">
               Insights & <span className="text-citrus">Articles</span>

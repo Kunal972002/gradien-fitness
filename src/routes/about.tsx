@@ -21,13 +21,13 @@ import { CalButton } from "@/components/CalButton";
 export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
-      { title: "Our Ethos — ELEVATE Fitness" },
+      { title: "Our Ethos | Data-Driven Wellness for the Female Executive" },
       {
         name: "description",
         content:
-          "Fitness engineered for the female executive. Built on science, driven by community. Discover the ELEVATE difference.",
+          "We build fitness protocols around your corporate schedule. Discover how we address cortisol, burnout, and hormonal health for working women.",
       },
-      { property: "og:title", content: "Our Ethos — ELEVATE Fitness" },
+      { property: "og:title", content: "Our Ethos — GRADIEN Fitness" },
       {
         property: "og:description",
         content:
@@ -115,7 +115,7 @@ function AboutPage() {
   return (
     <>
       <Navbar />
-      <main className="pt-20">
+      <main className="pt-[65px]">
         {/* ═══════════ 1. HERO — THE MANIFESTO ═══════════ */}
         <section className="bg-warmgray">
           <div className="mx-auto grid max-w-7xl gap-0 lg:grid-cols-2">
@@ -228,7 +228,7 @@ function AboutPage() {
                 hormones. That's not you.
               </p>
               <p className="font-medium text-foreground">
-                ELEVATE exists to provide what actually matters:{" "}
+                GRADIEN exists to provide what actually matters:{" "}
                 <span className="text-emerald font-bold">
                   energy management
                 </span>
@@ -388,7 +388,7 @@ function AboutPage() {
               calType="consultation"
               variant="citrus"
               size="lg"
-              className="mt-10 rounded-full px-10 py-6 text-base font-bold group shadow-lg shadow-citrus/20 hover:shadow-xl hover:shadow-citrus/30 transition-all duration-300"
+              className="mt-10 w-full sm:w-auto h-auto rounded-full px-6 sm:px-10 py-4 sm:py-6 text-sm sm:text-base font-bold group shadow-lg shadow-citrus/20 hover:shadow-xl hover:shadow-citrus/30 transition-all duration-300"
             >
               Apply for Your Free Strategy Consultation
               <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />

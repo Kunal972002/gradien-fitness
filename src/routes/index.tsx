@@ -12,9 +12,9 @@ import { WhatsAppFloat } from "@/components/WhatsAppFloat";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "ELEVATE — Premium Fitness for Female Executives" },
-      { name: "description", content: "High-performance fitness designed for women who lead. Executive coaching, group sessions, and precision nutrition. Join 500+ members." },
-      { property: "og:title", content: "ELEVATE — Premium Fitness for Female Executives" },
+      { title: "Executive Fitness & Holistic Wellness for Women | Gradien" },
+      { name: "description", content: "Premium physical conditioning, cycle-synced nutrition, and a secure community designed exclusively for high-achieving corporate women and IT professionals." },
+      { property: "og:title", content: "GRADIEN — Premium Fitness for Female Executives" },
       { property: "og:description", content: "Outperform in the boardroom. Transform in the studio." },
       { property: "og:type", content: "website" },
     ],

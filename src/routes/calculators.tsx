@@ -24,9 +24,9 @@ import {
 export const Route = createFileRoute("/calculators")({
   head: () => ({
     meta: [
-      { title: "Macro Calculator for Corporate Women — BMR & Daily Calorie Planner | ELEVATE" },
-      { name: "description", content: "Free macro calculator and BMR tool designed for professional women. Calculate your daily calorie intake for desk jobs, cycle-syncing macro planner, and strategic nutrition for corporate executives." },
-      { property: "og:title", content: "Macro Calculator for Corporate Women — ELEVATE Fitness" },
+      { title: "Free Health & Performance Calculators for Corporate Women" },
+      { name: "description", content: "Data-driven tools to calculate your macros, BMR, and hydration needs based on your daily corporate schedule and stress levels." },
+      { property: "og:title", content: "Macro Calculator for Corporate Women — GRADIEN Fitness" },
       { property: "og:description", content: "Free macro calculator and BMR estimator built for busy executive women. Optimize nutrition around your desk-heavy schedule, travel days, and menstrual cycle." },
       { name: "keywords", content: "macro calculator for corporate women, cycle-syncing macro planner, daily calorie intake for desk jobs, BMR calculator women, executive nutrition calculator, calorie calculator professional women, macro calculator for weight loss women" },
     ],
@@ -46,7 +46,7 @@ function CalculatorsPage() {
   return (
     <>
       <Navbar />
-      <main className="pt-20">
+      <main className="pt-[65px]">
         {/* ─── HERO ─── */}
         <section className="bg-warmgray py-16">
           <motion.div

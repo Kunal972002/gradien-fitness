@@ -13,19 +13,19 @@ export function Footer() {
           {/* Brand */}
           <div className="md:col-span-1">
             <span className="font-heading text-2xl font-black uppercase">
-              ELEVATE<span className="text-citrus">.</span>
+              GRADIEN<span className="text-citrus">.</span>
             </span>
             <p className="mt-4 text-sm leading-relaxed text-white/60">
               Premium fitness for women who lead. Strength, balance, performance.
             </p>
             <div className="mt-6 flex gap-4">
-              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-white/40 transition-colors hover:text-citrus" aria-label="Follow ELEVATE on Instagram">
+              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-white/40 transition-colors hover:text-citrus" aria-label="Follow GRADIEN on Instagram">
                 <Instagram className="h-5 w-5" />
               </a>
-              <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" className="text-white/40 transition-colors hover:text-citrus" aria-label="Subscribe to ELEVATE on YouTube">
+              <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" className="text-white/40 transition-colors hover:text-citrus" aria-label="Subscribe to GRADIEN on YouTube">
                 <Youtube className="h-5 w-5" />
               </a>
-              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-white/40 transition-colors hover:text-citrus" aria-label="Follow ELEVATE on Twitter">
+              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-white/40 transition-colors hover:text-citrus" aria-label="Follow GRADIEN on Twitter">
                 <Twitter className="h-5 w-5" />
               </a>
             </div>
@@ -92,7 +92,7 @@ export function Footer() {
 
         <div className="mt-12 border-t border-white/10 pt-8">
           <p className="text-center text-xs text-white/40">
-            © {new Date().getFullYear()} ELEVATE. All rights reserved. Built for women who lead.
+            © {new Date().getFullYear()} GRADIEN. All rights reserved. Built for women who lead.
           </p>
         </div>
       </div>

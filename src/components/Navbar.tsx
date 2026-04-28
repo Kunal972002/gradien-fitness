@@ -20,7 +20,7 @@ export function Navbar() {
     <header className="fixed top-0 left-0 right-0 z-50 border-b border-border/40 bg-background">
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-8">
         <Link to="/" className="font-heading text-2xl font-black uppercase tracking-tight text-foreground">
-          ELEVATE<span className="text-citrus">.</span>
+          GRADIEN<span className="text-citrus">.</span>
         </Link>
 
         {/* Desktop Nav */}
@@ -50,7 +50,7 @@ export function Navbar() {
         {/* Mobile toggle */}
         <button
           onClick={() => setMobileOpen(!mobileOpen)}
-          className="text-foreground md:hidden"
+          className="relative z-[60] text-foreground md:hidden"
           aria-label="Toggle menu"
         >
           {mobileOpen ? <X size={24} /> : <Menu size={24} />}

@@ -10,9 +10,9 @@ import { Mail, Phone, Calendar, MessageCircle } from "lucide-react";
 export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
-      { title: "Contact & Book — ELEVATE Fitness" },
-      { name: "description", content: "Get in touch or book your strategy call. We're ready to help you transform your fitness." },
-      { property: "og:title", content: "Contact — ELEVATE Fitness" },
+      { title: "Book a Strategy Call | Gradien Executive Wellness" },
+      { name: "description", content: "Schedule your free performance audit and consultation. Let's discuss your schedule, posture, and metabolism to build your custom protocol." },
+      { property: "og:title", content: "Contact — GRADIEN Fitness" },
       { property: "og:description", content: "Book your strategy call or send us an inquiry." },
     ],
   }),
@@ -28,7 +28,7 @@ function ContactPage() {
   return (
     <>
       <Navbar />
-      <main className="pt-20">
+      <main className="pt-[65px]">
         <section className="bg-warmgray py-16">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -129,7 +129,7 @@ function ContactPage() {
 
               <div className="space-y-4">
                 <a
-                  href="https://wa.me/1234567890"
+                  href="https://wa.me/919028634445"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-4 rounded-xl border border-border bg-card p-5 transition-all hover:shadow-lg hover:border-emerald/30"
@@ -144,7 +144,7 @@ function ContactPage() {
                 </a>
 
                 <a
-                  href="mailto:hello@elevate.fitness"
+                  href="mailto:hello@gradien.fitness"
                   className="flex items-center gap-4 rounded-xl border border-border bg-card p-5 transition-all hover:shadow-lg hover:border-emerald/30"
                 >
                   <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-emerald-light">
@@ -152,7 +152,7 @@ function ContactPage() {
                   </div>
                   <div>
                     <p className="font-semibold text-foreground">Email</p>
-                    <p className="text-sm text-muted-foreground">hello@elevate.fitness</p>
+                    <p className="text-sm text-muted-foreground">hello@gradien.fitness</p>
                   </div>
                 </a>
 

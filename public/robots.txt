@@ -1,9 +1,9 @@
-# ELEVATE Fitness — https://elevate.fitness
+# GRADIEN Fitness — https://gradien.fitness
 User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://elevate.fitness/sitemap.xml
+Sitemap: https://gradien.fitness/sitemap.xml
 
 # Disallow admin/API paths
 Disallow: /api/

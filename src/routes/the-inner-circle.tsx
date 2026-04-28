@@ -19,13 +19,13 @@ import communityImg from "@/assets/community-lounge.png";
 export const Route = createFileRoute("/the-inner-circle")({
   head: () => ({
     meta: [
-      { title: "The Inner Circle — Confidential Community for Corporate Women | ELEVATE" },
+      { title: "The Inner Circle | Private Wellness Community for Women" },
       {
         name: "description",
         content:
-          "A 100% private, judgment-free network for female IT professionals, founders, and corporate leaders. Expert masterclasses, confidential forums, and guilt-free accountability — included free with every coaching plan.",
+          "Join a secure, judgment-free network of female executives discussing hormonal health, desk-job fatigue, and sustainable energy management.",
       },
-      { property: "og:title", content: "The Inner Circle — ELEVATE Fitness" },
+      { property: "og:title", content: "The Inner Circle — GRADIEN Fitness" },
       {
         property: "og:description",
         content:
@@ -72,7 +72,7 @@ function InnerCirclePage() {
   return (
     <>
       <Navbar />
-      <main className="pt-20">
+      <main className="pt-[65px]">
         {/* ═══════════ 1. HERO — THE INVITATION ═══════════ */}
         <section className="relative overflow-hidden bg-foreground">
           <div className="mx-auto grid max-w-7xl gap-0 lg:grid-cols-2">

@@ -16,12 +16,12 @@ export const Route = createFileRoute("/services/$slug")({
   },
   head: ({ loaderData }) => ({
     meta: [
-      { title: `${loaderData?.service.title} ${loaderData?.service.titleAccent} — ELEVATE` },
+      { title: `${loaderData?.service.title} ${loaderData?.service.titleAccent} — GRADIEN` },
       {
         name: "description",
         content: loaderData?.service.heroDescription.slice(0, 155) + "…",
       },
-      { property: "og:title", content: `${loaderData?.service.title} ${loaderData?.service.titleAccent} — ELEVATE` },
+      { property: "og:title", content: `${loaderData?.service.title} ${loaderData?.service.titleAccent} — GRADIEN` },
       { property: "og:description", content: loaderData?.service.heroDescription.slice(0, 155) + "…" },
       { property: "og:type", content: "website" },
     ],
@@ -68,7 +68,7 @@ function ServiceDetailPage() {
   return (
     <>
       <Navbar />
-      <main className="bg-background pt-20">
+      <main className="bg-background pt-[65px]">
         {/* Hero */}
         <section className="relative overflow-hidden bg-warmgray py-20 lg:py-28">
           <div className="absolute inset-0 -z-10 bg-[radial-gradient(45%_40%_at_50%_50%,rgba(16,185,129,0.08)_0%,transparent_100%)]" />
@@ -120,7 +120,7 @@ function ServiceDetailPage() {
                     asChild
                     className="border-foreground/20 hover:bg-foreground hover:text-white"
                   >
-                    <a href="https://wa.me/1234567890" target="_blank" rel="noopener noreferrer">
+                    <a href="https://wa.me/919028634445" target="_blank" rel="noopener noreferrer">
                       <MessageCircle className="mr-2 h-4 w-4" />
                       WhatsApp Us
                     </a>

@@ -20,14 +20,14 @@ import {
 export const Route = createFileRoute("/membership-benefits")({
   head: () => ({
     meta: [
-      { title: "What Every Membership Includes — ELEVATE" },
+      { title: "What Every Membership Includes — GRADIEN" },
       {
         name: "description",
         content:
-          "Every ELEVATE membership includes a complimentary strategy consultation, daily habit tracking, and lifetime access to our private women-only Inner Circle community.",
+          "Every GRADIEN membership includes a complimentary strategy consultation, daily habit tracking, and lifetime access to our private women-only Inner Circle community.",
       },
-      { property: "og:title", content: "What Every Membership Includes — ELEVATE" },
-      { property: "og:description", content: "Every ELEVATE membership includes a complimentary strategy consultation, daily habit tracking, and lifetime Inner Circle access." },
+      { property: "og:title", content: "What Every Membership Includes — GRADIEN" },
+      { property: "og:description", content: "Every GRADIEN membership includes a complimentary strategy consultation, daily habit tracking, and lifetime Inner Circle access." },
     ],
   }),
   component: MembershipBenefitsPage,
@@ -99,7 +99,7 @@ const benefits = [
       },
     ],
     pullQuote: {
-      text: "I used to think tracking was tedious. The ELEVATE system takes 30 seconds a day and my coach uses it to adjust my program weekly. I've never been this consistent in my life.",
+      text: "I used to think tracking was tedious. The GRADIEN system takes 30 seconds a day and my coach uses it to adjust my program weekly. I've never been this consistent in my life.",
       author: "Rebecca Okonkwo",
       role: "CFO, Halo Health",
     },
@@ -146,7 +146,7 @@ function MembershipBenefitsPage() {
   return (
     <>
       <Navbar />
-      <main className="bg-background pt-20">
+      <main className="bg-background pt-[65px]">
         {/* Hero */}
         <section className="relative overflow-hidden bg-emerald py-20 lg:py-28">
           <div
@@ -193,7 +193,7 @@ function MembershipBenefitsPage() {
               </h1>
               <p className="mt-6 max-w-xl text-lg leading-relaxed text-white/80">
                 These aren't add-ons. They're not upsells. They're the foundation of
-                every ELEVATE experience — because we believe the basics should be
+                every GRADIEN experience — because we believe the basics should be
                 exceptional.
               </p>
             </motion.div>
@@ -394,7 +394,7 @@ function MembershipBenefitsPage() {
               <p className="text-sm">
                 Questions?{" "}
                 <a
-                  href="https://wa.me/1234567890"
+                  href="https://wa.me/919028634445"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-white/60 underline underline-offset-4 transition-colors hover:text-white"
